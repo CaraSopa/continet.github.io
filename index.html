@@ -3,7 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <title>Paises</title>
-    <link rel="stylesheet" href="Paises.css">
+    .banner{
+    background-color: #46B1C9;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 11rem;
+    padding: 20px;
+    position: relative; 
+}
+
+.banner h1{
+    color: #ffe6e6;
+    position: relative;
+    text-align: center;
+    font-size: 300%;
+}
+
+.banner img{
+    margin-left: 1.5%;
+    height: 10rem;
+    width: 15%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.257);
+    border-radius: 43%;
+    position: absolute;
+} 
+
+body{
+    margin: 0;
+    background-color: #e6e6e6;
+}
+
+a[class|="boton"]{
+    width: 10%;
+    color: #1d1d1d;
+    background-color: #b9ae9f;
+    border: 1px solid #1d1d1d;
+    padding: 10px;
+    position: absolute; 
+    bottom: 10px; 
+    text-decoration: none;
+    text-align: center;
+}
+
+a[class|="boton"]:hover{
+    background-color:rgba(255, 255, 255, 0.666);
+}
+
+.boton-1 {
+    right: 30%; 
+}
+
+.boton-2 {
+    right: 18%; 
+}
+
+.boton-3 {
+    right: 6%; 
+}
+
+.banderas{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+}
+
+img[class|="bandera"]{
+    width: 19%;
+    padding: 2%;
+    height: 15rem;
+    margin-left: 7%;
+}
+
+img[class|="bandera"]:hover{
+    background-color: #9fb7b986;
+    border-radius: 10%;
+}
+
+hr{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 98%;
+    border: 1px groove #1d1d1d;
+}
+
+
+div[id|="continente"]{
+    width: auto;
+    position: relative;
+}
+
+div[id|="continente"] h2{
+    margin-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+}
+
+div[id|="continente"] h3{
+    margin-top: 1%;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div[id|="continente"] p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 85%;
+}
+
+.contenedor-101{
+    font-size: 99%;
+}
+
+.texcont{
+    margin: 2%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    text-align: justify;
+    background-color: #9fb7b9;
+    padding: 10px;
+}
+
+div[class|="contenedor"]{
+    width: 280px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    padding: 5px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #F2E2D2;
+}
+
+div[class|="contenedor"] img{
+    width: 280px;
+    height: 185px;
+    border: 1px solid black;
+}
+
+.imagen{
+    display: none;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    z-index: 100;
+}
+
+.texto:hover+.imagen{
+    display: block;
+}
 </head>
 <body>
     <header class="banner">
